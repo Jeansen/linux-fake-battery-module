@@ -22,7 +22,7 @@
 #include <linux/module.h>
 #include <linux/power_supply.h>
 
-#include <asm/uaccess.h>
+#include <linux/uaccess.h>
 
 static int
 fake_battery_get_property1(struct power_supply *psy,
